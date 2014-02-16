@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E500DB9618AE4AE300BFF5F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E500DB9518AE4AE300BFF5F3 /* Foundation.framework */; };
+		E500DB9818AE4AE300BFF5F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E500DB9718AE4AE300BFF5F3 /* CoreGraphics.framework */; };
+		E500DB9A18AE4AE300BFF5F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E500DB9918AE4AE300BFF5F3 /* UIKit.framework */; };
+		E500DBA018AE4AE300BFF5F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E500DB9E18AE4AE300BFF5F3 /* InfoPlist.strings */; };
+		E500DBA218AE4AE300BFF5F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E500DBA118AE4AE300BFF5F3 /* main.m */; };
+		E500DBA618AE4AE300BFF5F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E500DBA518AE4AE300BFF5F3 /* AppDelegate.m */; };
+		E500DBA918AE4AE300BFF5F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E500DBA718AE4AE300BFF5F3 /* Main.storyboard */; };
+		E500DBAC18AE4AE300BFF5F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E500DBAB18AE4AE300BFF5F3 /* ViewController.m */; };
+		E500DBAE18AE4AE300BFF5F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E500DBAD18AE4AE300BFF5F3 /* Images.xcassets */; };
+		E500DBB518AE4AE300BFF5F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E500DBB418AE4AE300BFF5F3 /* XCTest.framework */; };
+		E500DBB618AE4AE300BFF5F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E500DB9518AE4AE300BFF5F3 /* Foundation.framework */; };
+		E500DBB718AE4AE300BFF5F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E500DB9918AE4AE300BFF5F3 /* UIKit.framework */; };
+		E500DBBF18AE4AE300BFF5F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E500DBBD18AE4AE300BFF5F3 /* InfoPlist.strings */; };
+		E500DBC118AE4AE300BFF5F3 /* Crappy_BirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E500DBC018AE4AE300BFF5F3 /* Crappy_BirdTests.m */; };
+		E500DBCB18AF483100BFF5F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E500DBCA18AF483100BFF5F3 /* QuartzCore.framework */; };
+		E500DBCE18AFBE7700BFF5F3 /* c1.png in Resources */ = {isa = PBXBuildFile; fileRef = E500DBCC18AFBE7700BFF5F3 /* c1.png */; };
+		E500DBCF18AFBE7700BFF5F3 /* c2.png in Resources */ = {isa = PBXBuildFile; fileRef = E500DBCD18AFBE7700BFF5F3 /* c2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E500DBB818AE4AE300BFF5F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E500DB8A18AE4AE300BFF5F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E500DB9118AE4AE300BFF5F3;
+			remoteInfo = "Crappy Bird";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E500DB9218AE4AE300BFF5F3 /* Crappy Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crappy Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E500DB9518AE4AE300BFF5F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E500DB9718AE4AE300BFF5F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E500DB9918AE4AE300BFF5F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E500DB9D18AE4AE300BFF5F3 /* Crappy Bird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Crappy Bird-Info.plist"; sourceTree = "<group>"; };
+		E500DB9F18AE4AE300BFF5F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E500DBA118AE4AE300BFF5F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E500DBA318AE4AE300BFF5F3 /* Crappy Bird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Crappy Bird-Prefix.pch"; sourceTree = "<group>"; };
+		E500DBA418AE4AE300BFF5F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E500DBA518AE4AE300BFF5F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E500DBA818AE4AE300BFF5F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E500DBAA18AE4AE300BFF5F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E500DBAB18AE4AE300BFF5F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E500DBAD18AE4AE300BFF5F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E500DBB318AE4AE300BFF5F3 /* Crappy BirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crappy BirdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E500DBB418AE4AE300BFF5F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E500DBBC18AE4AE300BFF5F3 /* Crappy BirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Crappy BirdTests-Info.plist"; sourceTree = "<group>"; };
+		E500DBBE18AE4AE300BFF5F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E500DBC018AE4AE300BFF5F3 /* Crappy_BirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crappy_BirdTests.m; sourceTree = "<group>"; };
+		E500DBCA18AF483100BFF5F3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E500DBCC18AFBE7700BFF5F3 /* c1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c1.png; sourceTree = "<group>"; };
+		E500DBCD18AFBE7700BFF5F3 /* c2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E500DB8F18AE4AE300BFF5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E500DBCB18AF483100BFF5F3 /* QuartzCore.framework in Frameworks */,
+				E500DB9818AE4AE300BFF5F3 /* CoreGraphics.framework in Frameworks */,
+				E500DB9A18AE4AE300BFF5F3 /* UIKit.framework in Frameworks */,
+				E500DB9618AE4AE300BFF5F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E500DBB018AE4AE300BFF5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E500DBB518AE4AE300BFF5F3 /* XCTest.framework in Frameworks */,
+				E500DBB718AE4AE300BFF5F3 /* UIKit.framework in Frameworks */,
+				E500DBB618AE4AE300BFF5F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E500DB8918AE4AE300BFF5F3 = {
+			isa = PBXGroup;
+			children = (
+				E500DB9B18AE4AE300BFF5F3 /* Crappy Bird */,
+				E500DBBA18AE4AE300BFF5F3 /* Crappy BirdTests */,
+				E500DB9418AE4AE300BFF5F3 /* Frameworks */,
+				E500DB9318AE4AE300BFF5F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E500DB9318AE4AE300BFF5F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E500DB9218AE4AE300BFF5F3 /* Crappy Bird.app */,
+				E500DBB318AE4AE300BFF5F3 /* Crappy BirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E500DB9418AE4AE300BFF5F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E500DBCA18AF483100BFF5F3 /* QuartzCore.framework */,
+				E500DB9518AE4AE300BFF5F3 /* Foundation.framework */,
+				E500DB9718AE4AE300BFF5F3 /* CoreGraphics.framework */,
+				E500DB9918AE4AE300BFF5F3 /* UIKit.framework */,
+				E500DBB418AE4AE300BFF5F3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E500DB9B18AE4AE300BFF5F3 /* Crappy Bird */ = {
+			isa = PBXGroup;
+			children = (
+				E500DBA418AE4AE300BFF5F3 /* AppDelegate.h */,
+				E500DBA518AE4AE300BFF5F3 /* AppDelegate.m */,
+				E500DBA718AE4AE300BFF5F3 /* Main.storyboard */,
+				E500DBAA18AE4AE300BFF5F3 /* ViewController.h */,
+				E500DBAB18AE4AE300BFF5F3 /* ViewController.m */,
+				E500DBCC18AFBE7700BFF5F3 /* c1.png */,
+				E500DBCD18AFBE7700BFF5F3 /* c2.png */,
+				E500DBAD18AE4AE300BFF5F3 /* Images.xcassets */,
+				E500DB9C18AE4AE300BFF5F3 /* Supporting Files */,
+			);
+			path = "Crappy Bird";
+			sourceTree = "<group>";
+		};
+		E500DB9C18AE4AE300BFF5F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E500DB9D18AE4AE300BFF5F3 /* Crappy Bird-Info.plist */,
+				E500DB9E18AE4AE300BFF5F3 /* InfoPlist.strings */,
+				E500DBA118AE4AE300BFF5F3 /* main.m */,
+				E500DBA318AE4AE300BFF5F3 /* Crappy Bird-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E500DBBA18AE4AE300BFF5F3 /* Crappy BirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				E500DBC018AE4AE300BFF5F3 /* Crappy_BirdTests.m */,
+				E500DBBB18AE4AE300BFF5F3 /* Supporting Files */,
+			);
+			path = "Crappy BirdTests";
+			sourceTree = "<group>";
+		};
+		E500DBBB18AE4AE300BFF5F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E500DBBC18AE4AE300BFF5F3 /* Crappy BirdTests-Info.plist */,
+				E500DBBD18AE4AE300BFF5F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E500DB9118AE4AE300BFF5F3 /* Crappy Bird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E500DBC418AE4AE300BFF5F3 /* Build configuration list for PBXNativeTarget "Crappy Bird" */;
+			buildPhases = (
+				E500DB8E18AE4AE300BFF5F3 /* Sources */,
+				E500DB8F18AE4AE300BFF5F3 /* Frameworks */,
+				E500DB9018AE4AE300BFF5F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crappy Bird";
+			productName = "Crappy Bird";
+			productReference = E500DB9218AE4AE300BFF5F3 /* Crappy Bird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E500DBB218AE4AE300BFF5F3 /* Crappy BirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E500DBC718AE4AE300BFF5F3 /* Build configuration list for PBXNativeTarget "Crappy BirdTests" */;
+			buildPhases = (
+				E500DBAF18AE4AE300BFF5F3 /* Sources */,
+				E500DBB018AE4AE300BFF5F3 /* Frameworks */,
+				E500DBB118AE4AE300BFF5F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E500DBB918AE4AE300BFF5F3 /* PBXTargetDependency */,
+			);
+			name = "Crappy BirdTests";
+			productName = "Crappy BirdTests";
+			productReference = E500DBB318AE4AE300BFF5F3 /* Crappy BirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E500DB8A18AE4AE300BFF5F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Eli Dela Cruz";
+				TargetAttributes = {
+					E500DBB218AE4AE300BFF5F3 = {
+						TestTargetID = E500DB9118AE4AE300BFF5F3;
+					};
+				};
+			};
+			buildConfigurationList = E500DB8D18AE4AE300BFF5F3 /* Build configuration list for PBXProject "Crappy Bird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E500DB8918AE4AE300BFF5F3;
+			productRefGroup = E500DB9318AE4AE300BFF5F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E500DB9118AE4AE300BFF5F3 /* Crappy Bird */,
+				E500DBB218AE4AE300BFF5F3 /* Crappy BirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E500DB9018AE4AE300BFF5F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E500DBCF18AFBE7700BFF5F3 /* c2.png in Resources */,
+				E500DBAE18AE4AE300BFF5F3 /* Images.xcassets in Resources */,
+				E500DBCE18AFBE7700BFF5F3 /* c1.png in Resources */,
+				E500DBA018AE4AE300BFF5F3 /* InfoPlist.strings in Resources */,
+				E500DBA918AE4AE300BFF5F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E500DBB118AE4AE300BFF5F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E500DBBF18AE4AE300BFF5F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E500DB8E18AE4AE300BFF5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E500DBAC18AE4AE300BFF5F3 /* ViewController.m in Sources */,
+				E500DBA618AE4AE300BFF5F3 /* AppDelegate.m in Sources */,
+				E500DBA218AE4AE300BFF5F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E500DBAF18AE4AE300BFF5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E500DBC118AE4AE300BFF5F3 /* Crappy_BirdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E500DBB918AE4AE300BFF5F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E500DB9118AE4AE300BFF5F3 /* Crappy Bird */;
+			targetProxy = E500DBB818AE4AE300BFF5F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E500DB9E18AE4AE300BFF5F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E500DB9F18AE4AE300BFF5F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E500DBA718AE4AE300BFF5F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E500DBA818AE4AE300BFF5F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E500DBBD18AE4AE300BFF5F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E500DBBE18AE4AE300BFF5F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E500DBC218AE4AE300BFF5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E500DBC318AE4AE300BFF5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E500DBC518AE4AE300BFF5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crappy Bird/Crappy Bird-Prefix.pch";
+				INFOPLIST_FILE = "Crappy Bird/Crappy Bird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E500DBC618AE4AE300BFF5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crappy Bird/Crappy Bird-Prefix.pch";
+				INFOPLIST_FILE = "Crappy Bird/Crappy Bird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E500DBC818AE4AE300BFF5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Crappy Bird.app/Crappy Bird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crappy Bird/Crappy Bird-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Crappy BirdTests/Crappy BirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E500DBC918AE4AE300BFF5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Crappy Bird.app/Crappy Bird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crappy Bird/Crappy Bird-Prefix.pch";
+				INFOPLIST_FILE = "Crappy BirdTests/Crappy BirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E500DB8D18AE4AE300BFF5F3 /* Build configuration list for PBXProject "Crappy Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E500DBC218AE4AE300BFF5F3 /* Debug */,
+				E500DBC318AE4AE300BFF5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E500DBC418AE4AE300BFF5F3 /* Build configuration list for PBXNativeTarget "Crappy Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E500DBC518AE4AE300BFF5F3 /* Debug */,
+				E500DBC618AE4AE300BFF5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E500DBC718AE4AE300BFF5F3 /* Build configuration list for PBXNativeTarget "Crappy BirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E500DBC818AE4AE300BFF5F3 /* Debug */,
+				E500DBC918AE4AE300BFF5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E500DB8A18AE4AE300BFF5F3 /* Project object */;
+}
